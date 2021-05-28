@@ -7,12 +7,14 @@ import {MatMenuModule} from '@angular/material/menu';
 import { CardComponent } from './card/card.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import {FormsModule} from '@angular/forms';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     FormularioComponent,
+    CarruselComponent,
   ],
   imports: [
     BrowserModule,
