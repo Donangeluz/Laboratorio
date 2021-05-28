@@ -9,6 +9,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import {FormsModule} from '@angular/forms';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ListaComponent } from './lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     FormularioComponent,
     CarruselComponent,
     NavbarComponent,
+    ListaComponent,
   ],
   imports: [
     BrowserModule,
