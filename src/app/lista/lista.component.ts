@@ -16,8 +16,8 @@ export class ListaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  reservarAct(){
-    this.reserva=!this.reserva;
+  reservarAct() {
+    this.reserva = !this.reserva;
   }
 
 
