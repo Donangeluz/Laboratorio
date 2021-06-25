@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarruselComponent implements OnInit {
   mensaje = 'Bienvenido al Gym';
-  escondido = false;
   constructor() { }
 
   ngOnInit(): void {

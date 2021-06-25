@@ -1,0 +1,16 @@
+<div class="container justify-content-center py-5">
+  <div class="row text-center">
+    <H1>Nuestros clientes destacados</H1>
+    <div class="col">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of equipo">
+          <H3>Nombre: {{item.nombre}}</H3>
+          <H4>Edad: {{item.edad}}</H4>
+          <p>País:{{item.pais}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+

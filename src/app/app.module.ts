@@ -11,6 +11,12 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ListaComponent } from './lista/lista.component';
 import { FooterComponent } from './footer/footer.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from '@angular/router';
+import { InstructoresComponent } from './instructores/instructores.component';
+import { SuscribeteComponent } from './suscribete/suscribete.component';
+import { ListaServiciosComponent } from './lista-servicios/lista-servicios.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +27,19 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     ListaComponent,
     FooterComponent,
+    InicioComponent,
+    InstructoresComponent,
+    SuscribeteComponent,
+    ListaServiciosComponent,
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatMenuModule,
-    FormsModule,
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatMenuModule,
+        FormsModule,
+        AppRoutingModule,
+        RouterModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
